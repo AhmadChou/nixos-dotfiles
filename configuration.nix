@@ -182,6 +182,7 @@
     mpvpaper
     waypaper
     steamcmd
+    brightnessctl
   ];
 
   fonts.packages = with pkgs; [
