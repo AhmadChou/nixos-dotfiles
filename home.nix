@@ -24,6 +24,7 @@
   home.packages = with pkgs; [
     bat
     fastfetch
+    brightnessctl
   ];
 
   services.hyprpolkitagent.enable = true;
