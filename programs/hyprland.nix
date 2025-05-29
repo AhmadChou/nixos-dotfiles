@@ -3,7 +3,7 @@
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
-      monitor = ",highres,auto,1.5";
+      monitor = ",highres,auto,1.5,vrr,1";
 
       "$terminal" = "alacritty";
       "$fileManager" = "dolphin";
