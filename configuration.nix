@@ -15,7 +15,7 @@
   boot.consoleLogLevel = 0;
   boot.kernelParams = ["quiet" "udev.log_level=3"];
 
-  networking.hostName = "envy"; # Define your hostname.
+  networking.hostName = "nixos"; # Define your hostname.
   networking.wireless.enable = false;  # Enables wireless support via wpa_supplicant.
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
