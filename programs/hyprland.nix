@@ -125,6 +125,7 @@
         "$mainMod, W, exec, $browser"
         "$mainMod, F, fullscreen,"
         "$mainMod, N, exec, $vpn"
+	"$mainMod, H, exec, killall -SIGUSR1 waybar"
         "$mainMod, left, movefocus, l"
         "$mainMod, right, movefocus, r"
         "$mainMod, up, movefocus, u"
