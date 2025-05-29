@@ -181,6 +181,7 @@
     mpv
     mpvpaper
     waypaper
+    steamcmd
   ];
 
   fonts.packages = with pkgs; [
