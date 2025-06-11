@@ -6,7 +6,7 @@
       monitor = ",highres,auto,1.5,vrr,1";
 
       "$terminal" = "alacritty";
-      "$fileManager" = "dolphin";
+      "$fileManager" = "thunar";
       "$menu" = "rofi -show drun";
       "$browser" = "google-chrome-stable";
       "$vpn" = "mullvad-vpn";
@@ -24,8 +24,8 @@
         gaps_in = 2;
         gaps_out = 2;
         border_size = 2;
-        "col.active_border" = "rgba(ffffffee) rgba(d4ecffee) 45deg";
-        "col.inactive_border" = "rgba(595959aa)";
+        "col.active_border" = "rgba(555555ee) rgba(333333ee) 45deg";
+        "col.inactive_border" = "rgba(111111aa)";
         resize_on_border = true;
         allow_tearing = false;
         layout = "dwindle";

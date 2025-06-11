@@ -75,6 +75,8 @@
 
   programs.starship.enable = true;
 
+  programs.thunar.enable = true;
+
   # Configure keymap in X11
   # services.xserver.xkb = {
   #  layout = "au";
@@ -160,7 +162,6 @@
     google-chrome
     spotify
     man-pages
-    kdePackages.dolphin
     dunst
     hyprpolkitagent
     libsForQt5.qt5.qtwayland
@@ -182,6 +183,9 @@
     mpvpaper
     waypaper
     steamcmd
+    android-file-transfer
+    qbittorrent
+    btop
   ];
 
   fonts.packages = with pkgs; [
